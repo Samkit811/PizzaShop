@@ -5,7 +5,7 @@ import Pizza.PizzaType.BasePizza;
 public class Tomato extends ToppingDecorator{
     BasePizza pizza;
 
-    Tomato(BasePizza pizza){
+    public Tomato(BasePizza pizza){
         this.pizza = pizza;
     }
 

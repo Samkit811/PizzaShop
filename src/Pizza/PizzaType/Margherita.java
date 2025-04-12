@@ -1,6 +1,6 @@
 package Pizza.PizzaType;
 
-public class Margerita extends BasePizza {
+public class Margherita extends BasePizza {
 
     @Override
     public int cost() {

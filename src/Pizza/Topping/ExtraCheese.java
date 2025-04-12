@@ -2,11 +2,11 @@ package Pizza.Topping;
 
 import Pizza.PizzaType.BasePizza;
 
-public class ExtraChess extends ToppingDecorator {
+public class ExtraCheese extends ToppingDecorator {
 
     BasePizza pizza;
 
-    ExtraChess(BasePizza pizza){
+    public ExtraCheese(BasePizza pizza){
         this.pizza = pizza;
     }
 
